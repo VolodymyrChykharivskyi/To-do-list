@@ -1,0 +1,20 @@
+.navigation {
+    margin: 0;
+    padding: 0;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+}
+
+.ul li {
+    color: #f6f2f1;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.ul li:hover {
+    /*background-color: #ff3f40;*/
+}

@@ -3,11 +3,12 @@
     padding: 10px 20px;
     border-radius: 4px;
     border: 1px solid #ccc;
-    color: black;
+    color: #f6f2f1;
     margin-right: 15px;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .Button:focus {
@@ -25,14 +26,13 @@
 }
 
 .error {
-    background-color: red;
+    background: #ff3f40;
 }
 
 .success {
-    background-color: green;
+    background: #2D7327;
 }
 
 .primary {
     background: black;
-    color: white;
 }

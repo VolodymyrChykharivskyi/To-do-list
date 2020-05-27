@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Header.module.css';
+import Navbar from "../Navbar/Navbar";
 
 const Header = (props) => {
     return (
@@ -7,11 +8,9 @@ const Header = (props) => {
             <div className={classes.wrapper}>
                 <div className={classes.header__content}>
                     <div className={classes.logo}>
-                        ToDoy
+                        <h1>Todo<span>List</span></h1>
                     </div>
-                    <div>
-                        Вхід
-                    </div>
+                    <Navbar />
                 </div>
             </div>
         </header>
